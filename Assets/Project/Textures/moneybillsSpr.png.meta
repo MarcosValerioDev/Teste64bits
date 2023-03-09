@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 12bf01b08bfe3c84182aac0af0091653
+guid: 67aad1da4a626a5489587cafb7df1d8d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -29,7 +29,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
+  textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
@@ -38,11 +38,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
-  nPOTScale: 1
+    wrapW: 0
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -105,9 +105,9 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: 64
+    textureFormat: 47
     textureCompression: 1
-    compressionQuality: 100
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
@@ -127,18 +127,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: moneybillsSpr_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 312
+        width: 220
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f593a2f1747c7334eb2a75c6b030c20c
+      internalID: 705418105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moneybillsSpr_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 306
+        width: 219
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e90b9701d0c2d4f96b4651ff8c8f5f
+      internalID: 432949859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moneybillsSpr_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 32
+        width: 225
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00909311524e57c469ef50c19279b74d
+      internalID: 1604931618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moneybillsSpr_3
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 66
+        width: 220
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f10cc15b601a438a2d880c460c755
+      internalID: -1937412909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4f1efc1d160543a42a87ae1262a5fd77
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      moneybillsSpr_0: 705418105
+      moneybillsSpr_1: 432949859
+      moneybillsSpr_2: 1604931618
+      moneybillsSpr_3: -1937412909
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
